@@ -14,13 +14,13 @@
 #include "driver/adc.h"
 #include "esp_adc_cal.h"
 
-#define DEFAULT_VREF    1100        //Use adc2_vref_to_gpio() to obtain a better estimate
+#define DEFAULT_VREF    1130        //Use adc2_vref_to_gpio() to obtain a better estimate
 #define NO_OF_SAMPLES   64          //Multisampling
 
 static esp_adc_cal_characteristics_t *adc_chars;
 static const adc1_channel_t channel1 = ADC1_CHANNEL_6;     //GPIO34 if ADC1, GPIO14 if ADC2
 static const adc1_channel_t channel2 = ADC1_CHANNEL_0;     //GPIO34 if ADC1, GPIO14 if ADC2
-static const adc_atten_t atten = ADC_ATTEN_DB_0;
+static const adc_atten_t atten = ADC_ATTEN_DB_2_5;//0-1.10v
 static const adc_unit_t unit = ADC_UNIT_1;
 
 static void check_efuse()
@@ -51,6 +51,20 @@ static void print_char_val_type(esp_adc_cal_value_t val_type)
     }
 }
 
+uint32_t get_vref()
+{
+    adc2_vref_to_gpio(25);
+
+    uint32_t reading = 0;
+    for (int i = 0; i < NO_OF_SAMPLES; i++) {
+        reading += adc1_get_raw(ADC2_CHANNEL_8);
+    }
+    reading /= NO_OF_SAMPLES;
+
+    //Convert adc_reading to voltage in mV
+    return esp_adc_cal_raw_to_voltage(reading, adc_chars);
+}
+
 void app_main()
 {
     //Check if Two Point or Vref are burned into eFuse
@@ -61,7 +75,11 @@ void app_main()
         adc1_config_width(ADC_WIDTH_BIT_12);
         adc1_config_channel_atten(channel1, atten);
         adc1_config_channel_atten(channel2, atten);
+        adc2_config_channel_atten(ADC2_CHANNEL_8, atten);
     }
+
+    adc2_vref_to_gpio(27);
+    //uint32_t vref = get_vref();
 
     //Characterize ADC
     adc_chars = calloc(1, sizeof(esp_adc_cal_characteristics_t));
@@ -86,8 +104,8 @@ void app_main()
         uint32_t voltage2 = esp_adc_cal_raw_to_voltage(adc_reading2, adc_chars);
 
         //pressure is linear from 0-4.5v with 0.5v=0psi, 2.5v=30psi, 4.5v=60psi
-        float psi1 = (voltage1/1000.0-0.5)/4.0 * 60;
-        float psi2 = (voltage2/1000.0-0.5)/4.0 * 60;
+        float psi1 = (voltage1/1000.0-0.515)/4.0 * 60;
+        float psi2 = (voltage2/1000.0-0.527)/4.0 * 60;
         printf("%d,%d,%f,%d,%d,%f\n", adc_reading1, voltage1, psi1, adc_reading2, voltage2, psi2);
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
