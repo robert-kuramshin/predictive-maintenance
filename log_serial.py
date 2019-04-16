@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 ser = serial.Serial('/dev/ttyUSB0')
-ser.baudrate = 115200
+ser.baudrate = 2000000
 ser.flushInput()
 
 # plot_window = 20
@@ -28,7 +28,7 @@ while True:
         #     continue
 
         print(ser_bytes)
-        with open("test_data.csv","a") as f:
+        with open("test.csv","a") as f:
             f.write(ser_bytes)
         # y_var = np.append(y_var,decoded_bytes)
         # y_var = y_var[1:plot_window+1]
