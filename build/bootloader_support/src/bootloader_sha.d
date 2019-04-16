@@ -26,7 +26,7 @@ src/bootloader_sha.o: \
  /home/robert/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/assert.h \
  /home/robert/esp/esp-idf/components/newlib/include/string.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/string.h \
@@ -92,7 +92,7 @@ src/bootloader_sha.o: \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/assert.h:
 

@@ -21,7 +21,7 @@ port/esp_mem.o: \
  /home/robert/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/alloca.h \
  /home/robert/esp/esp-idf/components/heap/include/multi_heap.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
 
 /home/robert/esp/esp-idf/components/esp32/include/esp_attr.h:
@@ -66,7 +66,7 @@ port/esp_mem.o: \
 
 /home/robert/esp/esp-idf/components/heap/include/multi_heap.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 /home/robert/esp/esp-idf/components/mbedtls/port/esp_mem.c:

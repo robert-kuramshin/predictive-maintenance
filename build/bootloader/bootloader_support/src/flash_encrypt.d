@@ -3,7 +3,7 @@ src/flash_encrypt.o: \
  /home/robert/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/robert/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/robert/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_flash_data_types.h \
@@ -45,7 +45,7 @@ src/flash_encrypt.o: \
 
 /home/robert/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
 

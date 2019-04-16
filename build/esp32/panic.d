@@ -27,7 +27,7 @@ panic.o: /home/robert/esp/esp-idf/components/esp32/panic.c \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/assert.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/uart.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_types.h \
@@ -157,7 +157,7 @@ panic.o: /home/robert/esp/esp-idf/components/esp32/panic.c \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/assert.h:
 

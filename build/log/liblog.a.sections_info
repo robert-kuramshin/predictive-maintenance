@@ -1,4 +1,4 @@
-In archive /home/robert/esp/esp-idf/examples/peripherals/adc/build/log/liblog.a:
+In archive /home/robert/code/predictive-maintenance/build/log/liblog.a:
 
 log.o:     file format elf32-xtensa-le
 
@@ -70,13 +70,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
  32 .debug_line   00000856  00000000  00000000  00002979  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 33 .debug_str    00000690  00000000  00000000  000031cf  2**0
+ 33 .debug_str    00000687  00000000  00000000  000031cf  2**0
                   CONTENTS, READONLY, DEBUGGING
- 34 .comment      0000003b  00000000  00000000  0000385f  2**0
+ 34 .comment      0000003b  00000000  00000000  00003856  2**0
                   CONTENTS, READONLY
- 35 .xtensa.info  00000038  00000000  00000000  0000389a  2**0
+ 35 .xtensa.info  00000038  00000000  00000000  00003891  2**0
                   CONTENTS, READONLY
- 36 .xt.lit       00000038  00000000  00000000  000038d2  2**0
+ 36 .xt.lit       00000038  00000000  00000000  000038c9  2**0
                   CONTENTS, RELOC, READONLY
- 37 .xt.prop      00000624  00000000  00000000  0000390a  2**0
+ 37 .xt.prop      00000624  00000000  00000000  00003901  2**0
                   CONTENTS, RELOC, READONLY

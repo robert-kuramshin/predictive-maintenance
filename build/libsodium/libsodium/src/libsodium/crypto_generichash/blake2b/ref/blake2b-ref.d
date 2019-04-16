@@ -1,7 +1,7 @@
 libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.o: \
  /home/robert/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.c \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/robert/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -33,7 +33,7 @@ libsodium/src/libsodium/crypto_generichash/blake2b/ref/blake2b-ref.o: \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/stdlib.h:
 

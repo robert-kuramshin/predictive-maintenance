@@ -18,7 +18,7 @@ src//memory_layout_utils.o: \
  /home/robert/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/robert/esp/esp-idf/components/log/include/esp_log.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -67,7 +67,7 @@ src//memory_layout_utils.o: \
 
 /home/robert/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

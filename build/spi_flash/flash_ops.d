@@ -16,7 +16,7 @@ flash_ops.o: /home/robert/esp/esp-idf/components/spi_flash/flash_ops.c \
  /home/robert/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/alloca.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/assert.h \
  /home/robert/esp/esp-idf/components/newlib/include/string.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/string.h \
@@ -142,7 +142,7 @@ flash_ops.o: /home/robert/esp/esp-idf/components/spi_flash/flash_ops.c \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/assert.h:
 

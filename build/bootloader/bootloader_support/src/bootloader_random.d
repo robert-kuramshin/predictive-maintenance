@@ -19,7 +19,7 @@ src/bootloader_random.o: \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_dport_access.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/robert/esp/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/robert/esp/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -69,7 +69,7 @@ src/bootloader_random.o: \
 
 /home/robert/esp/esp-idf/components/esp32/include/esp_dport_access.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 

@@ -1,6 +1,6 @@
 src/bootloader_common.o: \
  /home/robert/esp/esp-idf/components/bootloader_support/src/bootloader_common.c \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/robert/esp/esp-idf/components/log/include/esp_log.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -28,7 +28,7 @@ src/bootloader_common.o: \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
  /home/robert/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/esp32/include/esp_err.h:
 

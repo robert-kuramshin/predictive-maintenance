@@ -1,6 +1,6 @@
 src/secure_boot_signatures.o: \
  /home/robert/esp/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdint.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -46,7 +46,7 @@ src/secure_boot_signatures.o: \
  /home/robert/esp/esp-idf/components/esp32/include/rom/sha.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_types.h
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
 

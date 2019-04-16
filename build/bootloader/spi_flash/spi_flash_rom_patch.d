@@ -10,7 +10,7 @@ spi_flash_rom_patch.o: \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/spi_flash.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h
+ /home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h
 
 /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -32,5 +32,5 @@ spi_flash_rom_patch.o: \
 
 /home/robert/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h:
 /home/robert/esp/esp-idf/components/spi_flash/./spi_flash_rom_patch.c:

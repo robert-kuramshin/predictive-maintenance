@@ -3,7 +3,7 @@ proto-c/sec0.pb-c.o: \
  /home/robert/esp/esp-idf/components/protocomm/proto-c/sec0.pb-c.h \
  /home/robert/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/robert/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -32,7 +32,7 @@ proto-c/sec0.pb-c.o: \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/stdlib.h:
 

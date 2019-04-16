@@ -31,7 +31,7 @@ src/wpa2/tls/pkcs5.o: \
  /home/robert/esp/esp-idf/components/newlib/include/alloca.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/assert.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -121,7 +121,7 @@ src/wpa2/tls/pkcs5.o: \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/assert.h:
 

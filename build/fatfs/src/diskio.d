@@ -30,7 +30,7 @@ src/diskio.o: /home/robert/esp/esp-idf/components/fatfs/src/diskio.c \
  /home/robert/esp/esp-idf/components/newlib/include/stdint.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/alloca.h \
@@ -158,7 +158,7 @@ src/diskio.o: /home/robert/esp/esp-idf/components/fatfs/src/diskio.c \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/stdlib.h:
 

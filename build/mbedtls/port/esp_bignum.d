@@ -24,7 +24,7 @@ port/esp_bignum.o: \
  /home/robert/esp/esp-idf/components/newlib/include/machine/malloc.h \
  /home/robert/esp/esp-idf/components/newlib/include/limits.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/alloca.h \
@@ -153,7 +153,7 @@ port/esp_bignum.o: \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/stdlib.h:
 

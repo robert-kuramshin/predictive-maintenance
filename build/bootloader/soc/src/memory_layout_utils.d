@@ -1,7 +1,7 @@
 src//memory_layout_utils.o: \
  /home/robert/esp/esp-idf/components/soc/src/memory_layout_utils.c \
  /home/robert/esp/esp-idf/components/log/include/esp_log.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -11,7 +11,7 @@ src//memory_layout_utils.o: \
 
 /home/robert/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

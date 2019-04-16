@@ -23,7 +23,7 @@ lib_printf.o: /home/robert/esp/esp-idf/components/esp32/lib_printf.c \
  /home/robert/esp/esp-idf/components/log/include/esp_log.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdint.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -80,7 +80,7 @@ lib_printf.o: /home/robert/esp/esp-idf/components/esp32/lib_printf.c \
 
 /home/robert/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

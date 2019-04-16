@@ -1,5 +1,5 @@
 int_wdt.o: /home/robert/esp/esp-idf/components/esp32/int_wdt.c \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdint.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -90,7 +90,7 @@ int_wdt.o: /home/robert/esp/esp-idf/components/esp32/int_wdt.c \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_int_wdt.h
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/stdint.h:
 

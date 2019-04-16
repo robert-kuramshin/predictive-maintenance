@@ -23,7 +23,7 @@ rtc_module.o: /home/robert/esp/esp-idf/components/driver/rtc_module.c \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/assert.h \
  /home/robert/esp/esp-idf/components/log/include/esp_log.h \
  /home/robert/esp/esp-idf/components/log/include/esp_log_internal.h \
@@ -152,7 +152,7 @@ rtc_module.o: /home/robert/esp/esp-idf/components/driver/rtc_module.c \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/assert.h:
 

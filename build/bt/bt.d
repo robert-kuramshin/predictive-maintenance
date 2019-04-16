@@ -22,7 +22,7 @@ bt.o: /home/robert/esp/esp-idf/components/bt/bt.c \
  /home/robert/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/robert/esp/esp-idf/components/newlib/include/string.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdint.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -151,7 +151,7 @@ bt.o: /home/robert/esp/esp-idf/components/bt/bt.c \
 
 /home/robert/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/heap/include/esp_heap_caps.h:
 

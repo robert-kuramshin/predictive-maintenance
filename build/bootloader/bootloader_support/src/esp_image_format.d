@@ -15,7 +15,7 @@ src/esp_image_format.o: \
  /home/robert/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/robert/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_flash_data_types.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/bootloader_support/include/esp_secure_boot.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -58,7 +58,7 @@ src/esp_image_format.o: \
 
 /home/robert/esp/esp-idf/components/esp32/include/esp_flash_data_types.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/bootloader_support/include/esp_secure_boot.h:
 

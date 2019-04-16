@@ -16,7 +16,7 @@ dport_access.o: /home/robert/esp/esp-idf/components/esp32/dport_access.c \
  /home/robert/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdio.h \
@@ -129,7 +129,7 @@ dport_access.o: /home/robert/esp/esp-idf/components/esp32/dport_access.c \
 
 /home/robert/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/esp32/include/esp_attr.h:
 

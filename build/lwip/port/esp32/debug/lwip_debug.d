@@ -36,7 +36,7 @@ port/esp32/debug/lwip_debug.o: \
  /home/robert/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/robert/esp/esp-idf/components/esp32/include/xtensa/hal.h \
@@ -215,7 +215,7 @@ port/esp32/debug/lwip_debug.o: \
 
 /home/robert/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 

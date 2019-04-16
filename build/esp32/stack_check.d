@@ -1,5 +1,5 @@
 stack_check.o: /home/robert/esp/esp-idf/components/esp32/stack_check.c \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_system.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdint.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -58,7 +58,7 @@ stack_check.o: /home/robert/esp/esp-idf/components/esp32/stack_check.c \
  /home/robert/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/esp32/include/esp_system.h:
 

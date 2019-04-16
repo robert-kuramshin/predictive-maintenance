@@ -1,7 +1,7 @@
 mbedtls/library/ssl_cli.o: \
  /home/robert/esp/esp-idf/components/mbedtls/mbedtls/library/ssl_cli.c \
  /home/robert/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/robert/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
@@ -62,7 +62,7 @@ mbedtls/library/ssl_cli.o: \
 
 /home/robert/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 

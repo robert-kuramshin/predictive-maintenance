@@ -1,5 +1,5 @@
 adc1_example_main.o: \
- /home/robert/esp/esp-idf/examples/peripherals/adc/main/adc1_example_main.c \
+ /home/robert/code/predictive-maintenance/main/adc1_example_main.c \
  /home/robert/esp/esp-idf/components/newlib/include/stdio.h \
  /home/robert/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/robert/esp/esp-idf/components/newlib/include/newlib.h \
@@ -25,7 +25,7 @@ adc1_example_main.o: \
  /home/robert/esp/esp-idf/components/newlib/include/stdint.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/robert/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/robert/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -133,7 +133,7 @@ adc1_example_main.o: \
 
 /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -246,4 +246,4 @@ adc1_example_main.o: \
 /home/robert/esp/esp-idf/components/soc/esp32/include/soc/adc_channel.h:
 
 /home/robert/esp/esp-idf/components/esp_adc_cal/include/esp_adc_cal.h:
-/home/robert/esp/esp-idf/examples/peripherals/adc/main/./adc1_example_main.c:
+/home/robert/code/predictive-maintenance/main/./adc1_example_main.c:

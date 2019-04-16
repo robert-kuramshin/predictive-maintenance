@@ -19,7 +19,7 @@ esp-mqtt/lib/mqtt_msg.o: \
  /home/robert/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/robert/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/mqtt_msg.h \
  /home/robert/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform.h \
  /home/robert/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform_esp32_idf.h \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -171,7 +171,7 @@ esp-mqtt/lib/mqtt_msg.o: \
 
 /home/robert/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_config.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/mqtt/esp-mqtt/lib/include/platform.h:
 

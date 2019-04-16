@@ -25,7 +25,7 @@ utime.o: /home/robert/esp/esp-idf/components/newlib/utime.c \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/robert/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/robert/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -146,7 +146,7 @@ utime.o: /home/robert/esp/esp-idf/components/newlib/utime.c \
 
 /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

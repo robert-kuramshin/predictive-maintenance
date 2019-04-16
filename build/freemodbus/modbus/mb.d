@@ -25,7 +25,7 @@ modbus/mb.o: /home/robert/esp/esp-idf/components/freemodbus/modbus/mb.c \
  /home/robert/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/assert.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/uart_struct.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_err.h \
@@ -163,7 +163,7 @@ modbus/mb.o: /home/robert/esp/esp-idf/components/freemodbus/modbus/mb.c \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/assert.h:
 

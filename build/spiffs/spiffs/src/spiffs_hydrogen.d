@@ -30,7 +30,7 @@ spiffs/src/spiffs_hydrogen.o: \
  /home/robert/esp/esp-idf/components/newlib/include/unistd.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/unistd.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/log/include/esp_log.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
@@ -100,7 +100,7 @@ spiffs/src/spiffs_hydrogen.o: \
 
 /home/robert/esp/esp-idf/components/newlib/include/sys/unistd.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/log/include/esp_log.h:
 

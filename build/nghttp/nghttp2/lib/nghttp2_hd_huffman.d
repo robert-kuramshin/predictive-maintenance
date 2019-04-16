@@ -31,7 +31,7 @@ nghttp2/lib/nghttp2_hd_huffman.o: \
  /home/robert/esp/esp-idf/components/newlib/include/stdint.h \
  /home/robert/esp/esp-idf/components/nghttp/port/include/nghttp2/nghttp2ver.h \
  /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/newlib/include/assert.h \
  /home/robert/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_hd.h \
  /home/robert/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_buf.h \
@@ -101,7 +101,7 @@ nghttp2/lib/nghttp2_hd_huffman.o: \
 
 /home/robert/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/newlib/include/assert.h:
 

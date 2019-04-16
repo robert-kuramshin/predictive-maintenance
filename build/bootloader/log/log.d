@@ -4,7 +4,7 @@ log.o: /home/robert/esp/esp-idf/components/log/log.c \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/robert/esp/esp-idf/components/log/include/esp_log.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/robert/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/queue.h \
@@ -20,7 +20,7 @@ log.o: /home/robert/esp/esp-idf/components/log/log.c \
 
 /home/robert/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

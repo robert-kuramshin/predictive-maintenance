@@ -11,7 +11,7 @@ src/ffunicode.o: \
  /home/robert/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/robert/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/robert/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/robert/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -108,7 +108,7 @@ src/ffunicode.o: \
 
 /home/robert/esp/esp-idf/components/newlib/include/machine/param.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

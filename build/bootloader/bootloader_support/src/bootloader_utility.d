@@ -2,7 +2,7 @@ src/bootloader_utility.o: \
  /home/robert/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c \
  /home/robert/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/robert/esp/esp-idf/components/log/include/esp_log.h \
- /home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h \
+ /home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h \
  /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/robert/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/robert/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -63,7 +63,7 @@ src/bootloader_utility.o: \
 
 /home/robert/esp/esp-idf/components/log/include/esp_log.h:
 
-/home/robert/esp/esp-idf/examples/peripherals/adc/build/bootloader/../include/sdkconfig.h:
+/home/robert/code/predictive-maintenance/build/bootloader/../include/sdkconfig.h:
 
 /home/robert/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

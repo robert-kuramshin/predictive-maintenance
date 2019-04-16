@@ -1,4 +1,4 @@
-In archive /home/robert/esp/esp-idf/examples/peripherals/adc/build/expat/libexpat.a:
+In archive /home/robert/code/predictive-maintenance/build/expat/libexpat.a:
 
 loadlibrary.o:     file format elf32-xtensa-le
 
@@ -592,15 +592,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, RELOC, READONLY, DEBUGGING
 271 .debug_line   00006a50  00000000  00000000  0001c304  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-272 .debug_str    000033e8  00000000  00000000  00022d54  2**0
+272 .debug_str    000033df  00000000  00000000  00022d54  2**0
                   CONTENTS, READONLY, DEBUGGING
-273 .comment      0000003b  00000000  00000000  0002613c  2**0
+273 .comment      0000003b  00000000  00000000  00026133  2**0
                   CONTENTS, READONLY
-274 .xtensa.info  00000038  00000000  00000000  00026177  2**0
+274 .xtensa.info  00000038  00000000  00000000  0002616e  2**0
                   CONTENTS, READONLY
-275 .xt.lit       00000280  00000000  00000000  000261af  2**0
+275 .xt.lit       00000280  00000000  00000000  000261a6  2**0
                   CONTENTS, RELOC, READONLY
-276 .xt.prop      000078b4  00000000  00000000  0002642f  2**0
+276 .xt.prop      000078b4  00000000  00000000  00026426  2**0
                   CONTENTS, RELOC, READONLY
 
 xmltok.o:     file format elf32-xtensa-le
