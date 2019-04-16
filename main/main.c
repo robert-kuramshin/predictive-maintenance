@@ -87,9 +87,9 @@ void read_data ()
     uint32_t voltage2 = esp_adc_cal_raw_to_voltage(adc_reading2, adc_chars_outlet);
     uint32_t voltage3 = esp_adc_cal_raw_to_voltage(adc_reading3, adc_chars_current);
 
-    float psi1 = (voltage1 / 1000.0 - 0.515) / 4.0 * 60;
-    float psi2 = (voltage2 / 1000.0 - 0.527) / 4.0 * 60;
-    float current = (voltage3 / 1000.0) * 20;
+    float psi1 = (voltage1 / 1000.0 - 0.500) / 4.0 * 44.5 - 14.5;
+    float psi2 = (voltage2 / 1000.0 - 0.500) / 4.0 * 60;
+    float current = (voltage3 / 1000.0) * 20 ;
     
 
     if (lis3dh_new_data(sensor) &&
