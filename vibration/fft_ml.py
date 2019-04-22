@@ -21,9 +21,9 @@ for i in range(1,int(train.shape[0]/1000)):
     start = (i-1)*1000
     end = i*1000
     t = train.iloc[start:end,0] #time
-    y = train.iloc[start:end,1] #vibration
+    y = train.iloc[start:end,2] #vibration
     pin = train.iloc[start:end,5] #pressure inlet
-
+    
     pin = pin.mean()
 
     n = len(y) # length of the signal
@@ -45,7 +45,7 @@ for i in range(1,int(test.shape[0]/1000)):
     start = (i-1)*1000
     end = i*1000
     t = test.iloc[start:end,0] #time
-    y = test.iloc[start:end,1] #vibration
+    y = test.iloc[start:end,2] #vibration
     pin = test.iloc[start:end,5] #pressure inlet
 
     pin = pin.mean()
@@ -92,9 +92,16 @@ t = range(1,int(test.shape[0]/1000))
 mse = mean_squared_error(y_test, reg.predict(X_test))
 print("MSE: %.4f" % mse)
 
+fig,ax = plt.subplots()
+
 df=pd.DataFrame({'x': t, 'real_y': y_test, 'predicted':predicted })
 
 plt.plot( 'x', 'real_y', data=df, marker='', color='blue', linewidth=2, label="inlet pressure")
 plt.plot( 'x', 'predicted', data=df, marker='', color='red', linewidth=2, label="vibration response")
+
+fig.suptitle('Inlet Pressure Versus Vibration Based Prediction', fontsize=20)
+plt.xlabel('Time (s)', fontsize=18)
+plt.ylabel('Pressure (psi)', fontsize=16)
+
 plt.legend()
 plt.show()
