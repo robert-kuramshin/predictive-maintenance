@@ -96,10 +96,10 @@ fig,ax = plt.subplots()
 
 df=pd.DataFrame({'x': t, 'real_y': y_test, 'predicted':predicted })
 
-plt.plot( 'x', 'real_y', data=df, marker='', color='blue', linewidth=2, label="inlet pressure")
-plt.plot( 'x', 'predicted', data=df, marker='', color='red', linewidth=2, label="vibration response")
+plt.plot( 'x', 'real_y', data=df, marker='', color='blue', linewidth=2, label="inlet pressure (psi)")
+plt.plot( 'x', 'predicted', data=df, marker='', color='red', linewidth=2, label="predicted pressure (psi)")
 
-fig.suptitle('Inlet Pressure Versus Vibration Based Prediction', fontsize=20)
+fig.suptitle('Inlet Pressure Versus Vibration Model Response', fontsize=20)
 plt.xlabel('Time (s)', fontsize=18)
 plt.ylabel('Pressure (psi)', fontsize=16)
 
