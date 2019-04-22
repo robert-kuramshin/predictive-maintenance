@@ -4,7 +4,7 @@ import scipy.fftpack
 import pandas as pd
 import matplotlib.animation as animation
 
-data = pd.read_csv("data_2/sweep_inlet_2.csv")
+data = pd.read_csv("../data_2/sweep_inlet_2.csv")
 fig2 = plt.figure()
 
 Fs = 1000.0;  # sampling rate
